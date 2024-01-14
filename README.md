@@ -7,7 +7,7 @@ py32f0xx-hal
 
 > Currently only support the PY32f030 
 
-> **NOTE: The function is not fully tested, and you are responsible for any problems with the use of this repository.**
+> **NOTE: The function is tested with jlink debugger, and you are responsible for any problems with the use of this repository.**
 
 Collaboration on this crate is highly welcome, as are pull requests!
 
