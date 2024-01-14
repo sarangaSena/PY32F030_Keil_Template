@@ -1,0 +1,340 @@
+T2B1C 000:187.979   SEGGER J-Link V7.94d Log File
+T2B1C 000:188.139   DLL Compiled: Jan 11 2024 10:48:18
+T2B1C 000:188.147   Logging started @ 2024-01-13 04:50
+T2B1C 000:188.154   Process: C:\Keil_v5\UV4\UV4.exe
+T2B1C 000:188.164 - 188.161ms
+T2B1C 000:188.175 JLINK_SetWarnOutHandler(...)
+T2B1C 000:188.182 - 0.008ms
+T2B1C 000:188.191 JLINK_OpenEx(...)
+T2B1C 000:191.382   Firmware: J-Link ARM V8 compiled Nov 28 2014 13:44:46
+T2B1C 000:192.363   Firmware: J-Link ARM V8 compiled Nov 28 2014 13:44:46
+T2B1C 000:194.945   Hardware: V8.00
+T2B1C 000:194.990   S/N: 4294967295
+T2B1C 000:195.001   OEM: SEGGER
+T2B1C 000:195.012   Feature(s): RDI,FlashDL,FlashBP,JFlash,GDB
+T2B1C 000:195.719   Bootloader: (Could not read)
+T2B1C 000:197.096   TELNET listener socket opened on port 19021
+T2B1C 000:197.747   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T2B1C 000:198.289   WEBSRV Webserver running on local port 19080
+T2B1C 000:198.688   Looking for J-Link GUI Server exe at: C:\Keil_v5\ARM\Segger\JLinkGUIServer.exe
+T2B1C 000:198.918   Looking for J-Link GUI Server exe at: C:\Program Files\SEGGER\JLink_V794d\JLinkGUIServer.exe
+T2B1C 000:198.978   Forking J-Link GUI Server: C:\Program Files\SEGGER\JLink_V794d\JLinkGUIServer.exe
+T2B1C 000:229.996   J-Link GUI Server info: "J-Link GUI server V7.94d "
+T2B1C 000:236.266 - 48.065ms returns "O.K."
+T2B1C 000:236.311 JLINK_GetEmuCaps()
+T2B1C 000:236.322 - 0.009ms returns 0xB9FF7BBF
+T2B1C 000:236.335 JLINK_TIF_GetAvailable(...)
+T2B1C 000:236.575 - 0.239ms
+T2B1C 000:236.598 JLINK_SetErrorOutHandler(...)
+T2B1C 000:236.606 - 0.008ms
+T2B1C 000:236.634 JLINK_ExecCommand("ProjectFile = "C:\Users\USER\Desktop\Puya\PY32F030\JLinkSettings.ini"", ...). 
+T2B1C 000:264.068   XML file found at: C:\Users\USER\AppData\Roaming\SEGGER\JLinkDevices\Puya\PY32\Devices.xml
+T2B1C 000:266.445   C:\Users\USER\AppData\Roaming\SEGGER\JLinkDevices\Puya\PY32\Devices.xml evaluated successfully.
+T2B1C 000:266.471     Device entry created:  PY32F002AX5
+T2B1C 000:266.480       ChipInfo:
+T2B1C 000:266.491         Vendor:          Puya
+T2B1C 000:266.502         Name:            PY32F002AX5
+T2B1C 000:266.514         WorkRAMAddr:     0x20000000
+T2B1C 000:266.525         WorkRAMSize:     0x00000C00
+T2B1C 000:266.537         Core:            JLINK_CORE_CORTEX_M0
+T2B1C 000:266.548       FlashBankInfo:
+T2B1C 000:266.559         Name:            Flash_20K
+T2B1C 000:266.570         BaseAddr:        0x08000000
+T2B1C 000:266.672         AlwaysPresent:   1
+T2B1C 000:266.685         LoaderInfo:
+T2B1C 000:266.696           Name:            Flash_20K
+T2B1C 000:266.707           MaxSize:         0x00005000
+T2B1C 000:266.718           Loader:          C:\Users\USER\AppData\Roaming\SEGGER\JLinkDevices\Puya\PY32\PY32F0xx_20.FLM
+T2B1C 000:266.749           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T2B1C 000:266.859     Device entry created:  PY32F002AX6
+T2B1C 000:266.868       ChipInfo:
+T2B1C 000:266.878         Vendor:          Puya
+T2B1C 000:266.889         Name:            PY32F002AX6
+T2B1C 000:266.901         WorkRAMAddr:     0x20000000
+T2B1C 000:266.912         WorkRAMSize:     0x00001000
+T2B1C 000:266.923         Core:            JLINK_CORE_CORTEX_M0
+T2B1C 000:266.934       FlashBankInfo:
+T2B1C 000:266.945         Name:            Flash_32K
+T2B1C 000:266.956         BaseAddr:        0x08000000
+T2B1C 000:267.026         AlwaysPresent:   1
+T2B1C 000:267.039         LoaderInfo:
+T2B1C 000:267.050           Name:            Flash_32K
+T2B1C 000:267.061           MaxSize:         0x00008000
+T2B1C 000:267.072           Loader:          C:\Users\USER\AppData\Roaming\SEGGER\JLinkDevices\Puya\PY32\PY32F003xx_32.FLM
+T2B1C 000:267.083           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T2B1C 000:267.096     Device entry created:  PY32F002BX5
+T2B1C 000:267.104       ChipInfo:
+T2B1C 000:267.115         Vendor:          Puya
+T2B1C 000:267.125         Name:            PY32F002BX5
+T2B1C 000:267.136         WorkRAMAddr:     0x20000000
+T2B1C 000:267.147         WorkRAMSize:     0x00000C00
+T2B1C 000:267.159         Core:            JLINK_CORE_CORTEX_M0
+T2B1C 000:267.226       FlashBankInfo:
+T2B1C 000:267.237         Name:            Flash_24K
+T2B1C 000:267.248         BaseAddr:        0x08000000
+T2B1C 000:267.321         AlwaysPresent:   1
+T2B1C 000:267.333         LoaderInfo:
+T2B1C 000:267.344           Name:            Flash_24K
+T2B1C 000:267.355           MaxSize:         0x00006000
+T2B1C 000:267.366           Loader:          C:\Users\USER\AppData\Roaming\SEGGER\JLinkDevices\Puya\PY32\PY32F002Bxx_24.FLM
+T2B1C 000:267.377           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T2B1C 000:267.392     Device entry created:  PY32F003X4
+T2B1C 000:267.400       ChipInfo:
+T2B1C 000:267.410         Vendor:          Puya
+T2B1C 000:267.421         Name:            PY32F003X4
+T2B1C 000:267.432         WorkRAMAddr:     0x20000000
+T2B1C 000:267.443         WorkRAMSize:     0x00000800
+T2B1C 000:267.454         Core:            JLINK_CORE_CORTEX_M0
+T2B1C 000:267.465       FlashBankInfo:
+T2B1C 000:267.476         Name:            Flash_16K
+T2B1C 000:267.487         BaseAddr:        0x08000000
+T2B1C 000:267.552         AlwaysPresent:   1
+T2B1C 000:267.565         LoaderInfo:
+T2B1C 000:267.576           Name:            Flash_16K
+T2B1C 000:267.587           MaxSize:         0x00004000
+T2B1C 000:267.598           Loader:          C:\Users\USER\AppData\Roaming\SEGGER\JLinkDevices\Puya\PY32\PY32F003xx_16.FLM
+T2B1C 000:267.609           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T2B1C 000:267.628     Device entry created:  PY32F003X6
+T2B1C 000:267.636       ChipInfo:
+T2B1C 000:267.646         Vendor:          Puya
+T2B1C 000:267.657         Name:            PY32F003X6
+T2B1C 000:267.668         WorkRAMAddr:     0x20000000
+T2B1C 000:267.681         WorkRAMSize:     0x00001000
+T2B1C 000:267.692         Core:            JLINK_CORE_CORTEX_M0
+T2B1C 000:267.703       FlashBankInfo:
+T2B1C 000:267.714         Name:            Flash_32K
+T2B1C 000:267.725         BaseAddr:        0x08000000
+T2B1C 000:267.789         AlwaysPresent:   1
+T2B1C 000:267.802         LoaderInfo:
+T2B1C 000:267.812           Name:            Flash_32K
+T2B1C 000:267.823           MaxSize:         0x00008000
+T2B1C 000:267.834           Loader:          C:\Users\USER\AppData\Roaming\SEGGER\JLinkDevices\Puya\PY32\PY32F003xx_32.FLM
+T2B1C 000:267.845           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T2B1C 000:267.863     Device entry created:  PY32F003X8
+T2B1C 000:267.871       ChipInfo:
+T2B1C 000:267.881         Vendor:          Puya
+T2B1C 000:267.892         Name:            PY32F003X8
+T2B1C 000:267.903         WorkRAMAddr:     0x20000000
+T2B1C 000:267.914         WorkRAMSize:     0x00002000
+T2B1C 000:267.925         Core:            JLINK_CORE_CORTEX_M0
+T2B1C 000:267.936       FlashBankInfo:
+T2B1C 000:267.947         Name:            Flash_64K
+T2B1C 000:267.958         BaseAddr:        0x08000000
+T2B1C 000:268.021         AlwaysPresent:   1
+T2B1C 000:268.034         LoaderInfo:
+T2B1C 000:268.045           Name:            Flash_64K
+T2B1C 000:268.055           MaxSize:         0x00010000
+T2B1C 000:268.066           Loader:          C:\Users\USER\AppData\Roaming\SEGGER\JLinkDevices\Puya\PY32\PY32F003xx_64.FLM
+T2B1C 000:268.077           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T2B1C 000:268.090     Device entry created:  PY32F030X4
+T2B1C 000:268.098       ChipInfo:
+T2B1C 000:268.108         Vendor:          Puya
+T2B1C 000:268.119         Name:            PY32F030X4
+T2B1C 000:268.130         WorkRAMAddr:     0x20000000
+T2B1C 000:268.141         WorkRAMSize:     0x00000800
+T2B1C 000:268.152         Core:            JLINK_CORE_CORTEX_M0
+T2B1C 000:268.163       FlashBankInfo:
+T2B1C 000:268.174         Name:            Flash_16K
+T2B1C 000:268.185         BaseAddr:        0x08000000
+T2B1C 000:268.248         AlwaysPresent:   1
+T2B1C 000:268.261         LoaderInfo:
+T2B1C 000:268.272           Name:            Flash_16K
+T2B1C 000:268.283           MaxSize:         0x00004000
+T2B1C 000:268.294           Loader:          C:\Users\USER\AppData\Roaming\SEGGER\JLinkDevices\Puya\PY32\PY32F030xx_16.FLM
+T2B1C 000:268.307           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T2B1C 000:268.321     Device entry created:  PY32F030X6
+T2B1C 000:268.329       ChipInfo:
+T2B1C 000:268.339         Vendor:          Puya
+T2B1C 000:268.350         Name:            PY32F030X6
+T2B1C 000:268.361         WorkRAMAddr:     0x20000000
+T2B1C 000:268.372         WorkRAMSize:     0x00001000
+T2B1C 000:268.383         Core:            JLINK_CORE_CORTEX_M0
+T2B1C 000:268.394       FlashBankInfo:
+T2B1C 000:268.405         Name:            Flash_32K
+T2B1C 000:268.416         BaseAddr:        0x08000000
+T2B1C 000:268.480         AlwaysPresent:   1
+T2B1C 000:268.493         LoaderInfo:
+T2B1C 000:268.503           Name:            Flash_32K
+T2B1C 000:268.514           MaxSize:         0x00008000
+T2B1C 000:268.525           Loader:          C:\Users\USER\AppData\Roaming\SEGGER\JLinkDevices\Puya\PY32\PY32F030xx_32.FLM
+T2B1C 000:268.536           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T2B1C 000:268.549     Device entry created:  PY32F030X7
+T2B1C 000:268.557       ChipInfo:
+T2B1C 000:268.567         Vendor:          Puya
+T2B1C 000:268.578         Name:            PY32F030X7
+T2B1C 000:268.589         WorkRAMAddr:     0x20000000
+T2B1C 000:268.600         WorkRAMSize:     0x00001800
+T2B1C 000:268.611         Core:            JLINK_CORE_CORTEX_M0
+T2B1C 000:268.622       FlashBankInfo:
+T2B1C 000:268.633         Name:            Flash_48K
+T2B1C 000:268.644         BaseAddr:        0x08000000
+T2B1C 000:268.708         AlwaysPresent:   1
+T2B1C 000:268.720         LoaderInfo:
+T2B1C 000:268.731           Name:            Flash_48K
+T2B1C 000:268.742           MaxSize:         0x0000C000
+T2B1C 000:268.753           Loader:          C:\Users\USER\AppData\Roaming\SEGGER\JLinkDevices\Puya\PY32\PY32F030xx_48.FLM
+T2B1C 000:268.764           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T2B1C 000:268.777     Device entry created:  PY32F030X8
+T2B1C 000:268.785       ChipInfo:
+T2B1C 000:268.795         Vendor:          Puya
+T2B1C 000:268.806         Name:            PY32F030X8
+T2B1C 000:268.817         WorkRAMAddr:     0x20000000
+T2B1C 000:268.828         WorkRAMSize:     0x00002000
+T2B1C 000:268.839         Core:            JLINK_CORE_CORTEX_M0
+T2B1C 000:268.850       FlashBankInfo:
+T2B1C 000:268.860         Name:            Flash_64K
+T2B1C 000:268.871         BaseAddr:        0x08000000
+T2B1C 000:268.941         AlwaysPresent:   1
+T2B1C 000:268.954         LoaderInfo:
+T2B1C 000:268.965           Name:            Flash_64K
+T2B1C 000:268.976           MaxSize:         0x00010000
+T2B1C 000:268.987           Loader:          C:\Users\USER\AppData\Roaming\SEGGER\JLinkDevices\Puya\PY32\PY32F030xx_64.FLM
+T2B1C 000:268.998           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T2B1C 000:269.012     Device entry created:  PY32F072XB
+T2B1C 000:269.020       ChipInfo:
+T2B1C 000:269.030         Vendor:          Puya
+T2B1C 000:269.041         Name:            PY32F072XB
+T2B1C 000:269.052         WorkRAMAddr:     0x20000000
+T2B1C 000:269.063         WorkRAMSize:     0x00004000
+T2B1C 000:269.074         Core:            JLINK_CORE_CORTEX_M0
+T2B1C 000:269.085       FlashBankInfo:
+T2B1C 000:269.096         Name:            Flash_128K
+T2B1C 000:269.107         BaseAddr:        0x08000000
+T2B1C 000:269.171         AlwaysPresent:   1
+T2B1C 000:269.183         LoaderInfo:
+T2B1C 000:269.194           Name:            Flash_128K
+T2B1C 000:269.205           MaxSize:         0x00020000
+T2B1C 000:269.216           Loader:          C:\Users\USER\AppData\Roaming\SEGGER\JLinkDevices\Puya\PY32\PY32F072xx_128.FLM
+T2B1C 000:269.227           LoaderType:      FLASH_ALGO_TYPE_OPEN
+T2B1C 000:270.895   Ref file found at: C:\Keil_v5\ARM\Segger\JLinkDevices.ref
+T2B1C 000:271.005   REF file references invalid XML file: C:\Program Files\SEGGER\JLink_V794d\JLinkDevices.xml
+T2B1C 000:272.334 - 35.701ms returns 0x00
+T2B1C 000:272.360 JLINK_ExecCommand("Device = PY32F030x8", ...). 
+T2B1C 000:272.595   Flash bank @ 0x08000000: SFL: Parsing sectorization info from ELF file
+T2B1C 000:272.613     FlashDevice.SectorInfo[0]: .SectorSize = 0x00001000, .SectorStartAddr = 0x00000000
+T2B1C 000:272.625   OFL: Init() present @ offset 0x000001B5
+T2B1C 000:272.636   OFL: UnInit() present @ offset 0x000001FB
+T2B1C 000:272.646   OFL: EraseSector() present @ offset 0x00000297
+T2B1C 000:272.657   OFL: ProgramPage() present @ offset 0x00000301
+T2B1C 000:272.669   OFL: EraseChip() present @ offset 0x00000215
+T2B1C 000:272.679   OFL: BlankCheck() present @ offset 0x000002FB
+T2B1C 000:272.690   OFL: Verify() N/A
+T2B1C 000:272.701   OFL: SEGGER_FL_Erase() N/A
+T2B1C 000:272.711   OFL: SEGGER_OPEN_Erase() N/A
+T2B1C 000:272.722   OFL: SEGGER_FL_Program() N/A
+T2B1C 000:272.732   OFL: SEGGER_OPEN_Program() N/A
+T2B1C 000:272.742   OFL: SEGGER_FL_Read() N/A
+T2B1C 000:272.753   OFL: SEGGER_OPEN_Read() N/A
+T2B1C 000:272.763   OFL: SEGGER_FL_CalcCRC() N/A
+T2B1C 000:272.774   OFL: SEGGER_OPEN_CalcCRC() N/A
+T2B1C 000:272.784   OFL: SEGGER_FL_Start() N/A
+T2B1C 000:272.795   OFL: SEGGER_OPEN_Start() N/A
+T2B1C 000:272.805   OFL: SEGGER_FL_GetFlashInfo() N/A
+T2B1C 000:272.816   OFL: SEGGER_OPEN_GetFlashInfo() N/A
+T2B1C 000:272.826   OFL: SEGGER_FL_Verify() N/A
+T2B1C 000:272.837   OFL: SEGGER_FL_CheckBlank() N/A
+T2B1C 000:272.847   OFL: SEGGER_FL_Prepare() N/A
+T2B1C 000:272.858   OFL: SEGGER_FL_Restore() N/A
+T2B1C 000:272.868   OFL: SEGGER_FL_EraseChip() N/A
+T2B1C 000:272.879   OFL var <SEGGER_FL_GoIntEn>: N/A
+T2B1C 000:272.947   Device "PY32F030X8" selected.
+T2B1C 000:273.194 - 0.823ms returns 0x00
+T2B1C 000:273.210 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T2B1C 000:273.222 - 0.001ms returns 0x01
+T2B1C 000:273.234 JLINK_GetHardwareVersion()
+T2B1C 000:273.244 - 0.010ms returns 80000
+T2B1C 000:273.254 JLINK_GetDLLVersion()
+T2B1C 000:273.262 - 0.007ms returns 79404
+T2B1C 000:273.272 JLINK_GetOEMString(...)
+T2B1C 000:273.281 JLINK_GetFirmwareString(...)
+T2B1C 000:273.289 - 0.007ms
+T2B1C 000:273.300 JLINK_GetDLLVersion()
+T2B1C 000:273.307 - 0.007ms returns 79404
+T2B1C 000:273.380 JLINK_GetCompileDateTime()
+T2B1C 000:273.394 - 0.013ms
+T2B1C 000:273.407 JLINK_GetFirmwareString(...)
+T2B1C 000:273.415 - 0.007ms
+T2B1C 000:273.425 JLINK_GetHardwareVersion()
+T2B1C 000:273.433 - 0.007ms returns 80000
+T2B1C 000:273.443 JLINK_GetSN()
+T2B1C 000:273.451 - 0.008ms returns -1
+T2B1C 000:273.460 JLINK_GetOEMString(...)
+T2B1C 000:273.473 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T2B1C 000:274.501 - 1.028ms returns 0x00
+T2B1C 000:274.519 JLINK_HasError()
+T2B1C 000:274.538 JLINK_SetSpeed(10000)
+T2B1C 000:274.651 - 0.114ms
+T2B1C 000:274.983 JLINK_HasError()
+T2B1C 000:274.997 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T2B1C 000:275.005 - 0.007ms returns JLINKARM_RESET_TYPE_NORMAL
+T2B1C 000:275.014 JLINK_Reset()
+T2B1C 000:276.120   Found SW-DP with ID 0x0BC11477
+T2B1C 000:281.014   Old FW that does not support reading DPIDR via DAP jobs
+T2B1C 000:285.050   DPv0 detected
+T2B1C 000:285.077   CoreSight SoC-400 or earlier
+T2B1C 000:285.091   Scanning AP map to find all available APs
+T2B1C 000:287.626   AP[1]: Stopped AP scan as end of AP map has been reached
+T2B1C 000:287.647   AP[0]: AHB-AP (IDR: 0x04770031)
+T2B1C 000:287.658   Iterating through AP map to find AHB-AP to use
+T2B1C 000:291.792   AP[0]: Core found
+T2B1C 000:291.815   AP[0]: AHB-AP ROM base: 0xE00FF000
+T2B1C 000:294.062   CPUID register: 0x410CC601. Implementer code: 0x41 (ARM)
+T2B1C 000:294.122   Found Cortex-M0 r0p1, Little endian.
+T2B1C 000:294.522   -- Max. mem block: 0x00002408
+T2B1C 000:295.055   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T2B1C 000:295.448   CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T2B1C 000:295.901   CPU_ReadMem(4 bytes @ 0xE0002000)
+T2B1C 000:296.434   FPUnit: 4 code (BP) slots and 0 literal slots
+T2B1C 000:296.480   CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T2B1C 000:296.900   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T2B1C 000:297.423   CPU_ReadMem(4 bytes @ 0xE0001000)
+T2B1C 000:297.854   CPU_WriteMem(4 bytes @ 0xE0001000)
+T2B1C 000:298.326   CoreSight components:
+T2B1C 000:298.428   ROMTbl[0] @ E00FF000
+T2B1C 000:298.460   CPU_ReadMem(64 bytes @ 0xE00FF000)
+T2B1C 000:299.233   CPU_ReadMem(32 bytes @ 0xE000EFE0)
+T2B1C 000:299.787   [0][0]: E000E000 CID B105E00D PID 000BB008 SCS
+T2B1C 000:299.803   CPU_ReadMem(32 bytes @ 0xE0001FE0)
+T2B1C 000:300.303   [0][1]: E0001000 CID B105E00D PID 000BB00A DWT
+T2B1C 000:300.319   CPU_ReadMem(32 bytes @ 0xE0002FE0)
+T2B1C 000:300.874   [0][2]: E0002000 CID B105E00D PID 000BB00B FPB
+T2B1C 000:300.932   CPU is running
+T2B1C 000:300.947   CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T2B1C 000:301.328   CPU is running
+T2B1C 000:301.346   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T2B1C 000:301.729   Reset: Halt core after reset via DEMCR.VC_CORERESET.
+T2B1C 000:302.231   Reset: Reset device via AIRCR.SYSRESETREQ.
+T2B1C 000:302.265   CPU is running
+T2B1C 000:302.277   CPU_WriteMem(4 bytes @ 0xE000ED0C)
+T2B1C 000:355.934   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T2B1C 000:356.511   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T2B1C 000:359.204   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T2B1C 000:365.774   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T2B1C 000:368.634   CPU_WriteMem(4 bytes @ 0xE0002000)
+T2B1C 000:369.250   CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T2B1C 000:369.752   CPU_ReadMem(4 bytes @ 0xE0001000)
+T2B1C 000:370.467   CPU_WriteMem(4 bytes @ 0xE0001000)
+T2B1C 000:371.189 - 96.174ms
+T2B1C 000:371.235 JLINK_GetId()
+T2B1C 000:371.807 - 0.571ms returns 0x0BC11477
+T2B1C 000:377.283 JLINK_GetFirmwareString(...)
+T2B1C 000:377.355 - 0.072ms
+T2B1C 010:804.429 JLINK_SWO_Control(JLINKARM_SWO_CMD_GET_SPEED_INFO, ...)
+T2B1C 010:804.930 - 0.501ms returns 0x00
+T2B1C 010:804.947 JLINK_SWO_Control(JLINKARM_SWO_CMD_GET_SPEED_INFO, ...)
+T2B1C 010:805.378 - 0.430ms returns 0x00
+T2B1C 010:805.396 JLINK_SWO_Control(JLINKARM_SWO_CMD_GET_SPEED_INFO, ...)
+T2B1C 010:805.839 - 0.443ms returns 0x00
+T2B1C 010:805.857 JLINK_SWO_Control(JLINKARM_SWO_CMD_GET_SPEED_INFO, ...)
+T2B1C 010:806.204 - 0.346ms returns 0x00
+T2B1C 010:806.222 JLINK_SWO_Control(JLINKARM_SWO_CMD_GET_SPEED_INFO, ...)
+T2B1C 010:806.537 - 0.315ms returns 0x00
+T2B1C 010:806.743 JLINK_SWO_Control(JLINKARM_SWO_CMD_GET_SPEED_INFO, ...)
+T2B1C 010:807.105 - 0.361ms returns 0x00
+T2B1C 025:591.988 JLINK_Close()
+T2B1C 025:592.431   CPU_ReadMem(4 bytes @ 0xE0001000)
+T2B1C 025:592.908   CPU_WriteMem(4 bytes @ 0xE0001000)
+T2B1C 025:593.490   CPU_WriteMem(4 bytes @ 0xE0001004)
+T2B1C 025:603.789 - 11.799ms
+T2B1C 025:603.814   
+T2B1C 025:603.822   Closed
